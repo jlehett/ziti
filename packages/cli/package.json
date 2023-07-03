@@ -1,0 +1,23 @@
+{
+  "name": "@ziti/cli",
+  "version": "0.1.0-alpha.83",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "ziti": "./index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "inquirer": "^9.2.6",
+    "shelljs": "^0.8.5",
+    "yargs": "^17.7.2"
+  }
+}

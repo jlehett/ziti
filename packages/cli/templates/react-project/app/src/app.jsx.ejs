@@ -1,0 +1,14 @@
+import { Outlet } from 'react-router-dom';
+import { IonApp, setupIonicReact } from '@ionic/react';
+
+setupIonicReact();
+
+function App() {
+    return (
+        <IonApp>
+            <Outlet/>
+        </IonApp>
+    );
+}
+
+export default App;
